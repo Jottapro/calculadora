@@ -1,0 +1,26 @@
+.flex-container{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 100px;
+    padding: 330px;
+  
+
+
+
+}
+.flex-container div{
+    background-color: white;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 20px;
+    
+
+
+
+}
+
+
