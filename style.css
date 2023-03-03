@@ -1,40 +1,65 @@
 body{
+
    display: flex;
    justify-content: center;
+
    margin-top: 100px;
-
-
-
+        
 }
 
-.quadrado-principal{
+.calculadora{
 
-    background-color: black;
-    color: blue;
-    width: 500px;
-    height: 500px;
+    background-color: yellow;
+    color: white;
+    
+    width: 370px;
+    height: 400px;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
+    border-radius: 20px;
+
 }
-.teste{
+.teclado{
     
     width: 450px;
     height: 50px;
-    margin-top: 2px;
+
+    margin-top: 6px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .button{
-    background-color: yellow;
-    width: 20px;
-    height: 40px;
-    margin: 6px;
-}
+    background-color:black;
 
+    width: 69px;
+    height: 40px;
+
+    margin: 4px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.tela{
+    background-color: black;
+
+    width: 300px;
+    height: 100px;
+    
+    border-radius: 5px;
+}
 
 
 
