@@ -1,26 +1,40 @@
-.flex-container{
-    background-color: blue;
+body{
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+
+
+
+}
+
+.quadrado-principal{
+
+    background-color: black;
+    color: blue;
+    width: 500px;
+    height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
-
-    margin: 100px;
-    padding: 330px;
-  
-
-
-
-}
-.flex-container div{
-    background-color: white;
-    border: 1px solid black;
-    margin: 3px;
-    padding: 20px;
+    align-items: center;
     
-
-
-
 }
+.teste{
+    
+    width: 450px;
+    height: 50px;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: yellow;
+    width: 20px;
+    height: 40px;
+    margin: 6px;
+}
+
+
 
 
